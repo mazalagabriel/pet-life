@@ -1,0 +1,226 @@
+body {
+  max-width: auto;
+  max-height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: #421371;
+  height: 79px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.objectImage {
+  width: 382px;
+  height: 80px;
+  object-fit: cover;
+  margin-left: 300px;
+}
+
+nav {
+  height: 46px;
+  background: linear-gradient(#ffffff, #bbbbbb);
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav div{
+  height: 46px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 42px;
+  background: #e9b15e;
+  border-radius: 8px;
+}
+nav div a {
+ 
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  text-align: center;
+}
+.conteudo-meio {
+  display: flex;
+  max-width: auto;
+  max-height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.meio1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  justify-items: flex-end;  
+}
+
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.conteudo-meio2 {
+  display: flex;
+  max-width: auto;
+  max-height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.meio2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  justify-items: flex-end;  
+}
+
+.final1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 750px;
+  margin-bottom: 40px;
+}
+
+.conteudo-meio3{
+  display: flex;
+  max-width: auto;
+  max-height: auto;
+  flex-wrap: nowrap;
+}
+
+.meio3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  text-align: center;
+  padding: 10px;  
+}
+
+.logo1{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 80px;
+}
+.logo2{
+  display: flex;
+  flex-wrap: nowrap;  
+  margin-top: 80px;
+}
+.logo3{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 80px
+}
+
+body p{
+  margin: 0px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+div.meio3 p{
+  align-content: center;
+}
+
+.locais{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.container-cad {
+  font-family: 'Roboto';
+  display: block;
+  width: 650px;
+  padding:70px;
+  margin: 80px;
+  background:  #421371;
+  border-radius: 20px;
+  justify-content: center;
+  color: #e9b15e;
+  justify-content: center;
+}
+
+
+.container-cad fieldset {
+  width: 470px;
+  border-style: none;
+  padding: 0;
+}
+
+.container-bg {
+  max-width: 1366px;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+}
+
+.titulo-cadastro {
+  font-family: "Roboto;
+  font-size: 25px;
+  text-align: center;
+  color: white; 
+}
+
+.button-cadastro {
+  width: 260px;
+  border-color: #e9b15e;;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+  background: #e9b15e;;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.button-cadastrado {
+  width: 190px;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  background: #f1eded;
+  font-family: 'Roboto';
+}
+
+#name, #surname, #cpf, #telefone, #email, #subject, #vali-senha, #senha {
+  background-color: rgba(229, 229, 229, 0.59);
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 470px;
+}
+
+#date {
+  background: rgba(229, 229, 229, 0.59);
+  border-style: none;
+  padding: 5px;
+  color: gray;
+  width: 158px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#redefinir-senha {
+  color: white;
+  text-align: center;
+}
